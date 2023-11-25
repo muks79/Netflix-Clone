@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Roboto:ital,wght@1,300&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url("/assets/photos/bg_photo.jpg");
+    height: 70vh;
+    position: relative;
+    background-size: max(1000px, 100vw);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.main .box {
+    height: 70vh;
+    opacity: 0.69;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    top: 0px;
+}
+
+nav {
+    display: flex;
+    max-width: 80vw;
+    margin: auto;
+    justify-content: space-between;
+    height: 70px;
+    padding: 15px 0px;
+}
+
+nav img {
+    color: red;
+    width: 114px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    position: relative;
+    color: white;
+    height: calc(100% - 100px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 23px;
+    gap: 8px;
+
+}
+
+.hero> :nth-child(1) {
+    font-size: 48px;
+    font-weight: bolder;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.hero> :nth-child(2) {
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.hero> :nth-child(3) {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.separation {
+    position: relative;
+    z-index: 13;
+    height: 4px;
+    background-color: rgb(66, 63, 63);
+}
+
+.btn {
+    padding: 6px 11px;
+    font-weight: 400;
+    color: aliceblue;
+    background-color: rgba(165, 174, 182, 0.21);
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+
+.btn-red {
+    background-color: red;
+    color: aliceblue;
+    border-radius: 4px;
+    padding: 3px 24px;
+    font-size: 20px;
+}
+
+.btn-red-sm {
+    background-color: red;
+    color: aliceblue;
+
+}
+
+.main input {
+    border-radius: 4px;
+    padding: 7px 101px 8px 14px;
+    font-size: 12px;
+    background-color: rgb(23, 23, 23, 0.7);
+    color: aliceblue;
+    font-weight: 900;
+    border: 1px solid rgba(196, 193, 193, 0.5);
+}
+
+.hero-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    color: aliceblue;
+    max-width: 70vw;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.sec-img img {
+    width: 30vw;
+    z-index: 10;
+    position: relative;
+}
+
+.sec-img {
+    position: relative;
+
+}
+
+.sec-img video {
+    position: absolute;
+    top: 61px;
+    right: 54px;
+    width: 284px;
+
+}
+
+section .first>div {
+    display: flex;
+    flex-direction: column;
+    padding: 34px 0;
+}
+
+.first>div :first-child {
+    font-size: 40px;
+}
+
+.first>div :first-child(2) {
+    font-size: 24px;
+}
+
+.second {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    color: aliceblue;
+    max-width: 60vw;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.second .sec-img {
+    display: flex;
+    align-items: center;
+
+}
+
+.line {
+    display: flex;
+    flex-direction: column;
+}
+
+.faqbox {
+    display: flex;
+    padding: 24px;
+    background-color: rgb(70, 69, 69);
+    max-width: 60vw;
+    display: flex;
+    margin: 32px auto;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: all 1s ease-out;
+}
+.faqbox:hover {
+background-color: rgb(34, 33, 33);
+}
+
+.faq {
+    background-color: black;
+    color: white;
+    padding: 34px;
+}
+
+.faq h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+footer{
+    color: beige;
+    max-width: 40vw;
+    margin: auto;
+    padding: 12px;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: aliceblue;
+}
+
+.footer-item{
+    display: flex;
+    flex-direction: column;
+}
+.footer  a{
+    text-decoration: none;
+    color: azure;
+    font-size: 12px;
+
+}
+.ques{
+    padding: 34px 0;
+}
